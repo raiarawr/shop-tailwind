@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <div class="w-full h-screen bg-slate-950 font-sans ">
+    <div>
+        <div class="flex flex-row gap-4 text-white pl-10 pt-5 pr-10  ">
+            <div class="w-2/5 float-left flex gap-4">
+                    <a ><i class="fa-solid fa-bars "></i></a>
+                    <h1 class="font-bold">Soif 'n <span class="text-amber-600">Sip</span></h1>
+                <div class="flex">
+                    <div class="relative pl-24">
+                        <button class="bg-slate-600 hover:bg-slate-500 text-white mr-5 font-bold py-1 px-6 rounded-full">Pick-up</button>
+                    </div>
+                    <div class="pl-6 absolute">
+                        <button class="bg-amber-600  text-white font-bold py-1 px-4 rounded-full">
+                            Delivery
+                        </button>
+                    </div>
+                    
+                </div>    
+                
+            </div>
+                
+
+            <div class="w-2/5 place items-center ml-36  ">
+                <div class="bg-slate-500 w-3/5 h-8 rounded-full flex  ">
+                    <a class="ml-5 mt-1"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <p class="ml-5 mt-1">Search</p>
+                </div>
+            </div>
+            
+
+            <div class="w-2/5 text-amber-600 hover:scale-y-110">
+                <a class=" float-right gap-2"><i class="fa-solid fa-cart-shopping "> </i><span class="pl-3">Cart</span></a>
+                <h1></h1>
+            </div>
+            
+        </div>
+
+        <!--Hero banner-->
+        <div class="relative  w-full  grid place-items-center pt-8">
+            <div class=" object-cover ">
+                <img class="w-[1500px] h-[500px] rounded-2xl opacity-75" src="/images/b1.jpg" alt="">
+            </div>
+            
+            <div class="absolute top-0 left-0 pl-[660px]   pt-[200px]">
+                <p class="text-8xl font-bold text-slate-200 drop-shadow-xl">Soif 'n <span class="text-amber-300">Sip</span></p>
+            </div>
+
+        </div>
+ 
+        <!--Hero banner-->
+        <div class="grid grid-cols-3 p-4  w-full  bg-slate-950 pt-24 pl-24 ">
+            <div class="relative hover:scale-110">
+                <img class="w-[500px] h-[350px] rounded-2xl  opacity-75" src="/images/italian-soda.jpg" alt="Italian Soda will make u shiver like Italians do">
+                <div class="absolute top-0 left-5 pt-4 ">
+                    <h1 class="text-5xl font-bold text-pink-600">Italian Soda</h1>
+                    <p class="text-white text-2xl">will make u shiver like Italians do</p>
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white font-bold py-1 px-6 rounded-md mt-52 hover:scale-110">Order</button>
+                </div>
+            </div>
+
+            <div class="relative hover:scale-110">
+                <img class="w-[500px] h-[350px] rounded-2xl  opacity-50" src="/images/martini-drink.jpg" alt="Martini lil sweeter than Martin">
+                <div class="absolute top-0 left-5 pt-4 ">
+                    <h1 class="text-5xl font-bold text-amber-300">Martini</h1>
+                    <p class="text-white text-2xl">lil sweeter than Martin</p>
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white font-bold py-1 px-6 rounded-md mt-52 hover:scale-110">Order</button>
+                </div>
+            </div>
+
+            <div class="relative hover:scale-110">
+                <img class="w-[500px] h-[350px] rounded-2xl opacity-75 " src="/images/vodka.jpg" alt="Vodka tasteless headwrecker">
+                <div class="absolute top-0 left-5 pt-4 ">
+                    <h1 class="text-5xl font-bold text-green-500">Vodka</h1>
+                    <p class="text-white text-2xl">tasteless headwrecker</p>
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white font-bold py-1 px-6 rounded-md mt-52 hover:scale-110">Order</button>
+                </div>
+            </div>
+        </div>
+
+        <div class=" w-full  bg-slate-950 pt-24">
+            <h1 class="text-amber-600 text-5xl text-center pb-32">Best Sellers</h1>
+            <h1 class="text-gray-400 pl-16 pb-5">Filter Styles</h1>
+
+            <div class="">
+
+
+                <button class="bg-transparent ml-14 hover:bg-amber-600 text-amber-600 font-semibold hover:text-white py-1 px-4 border border-amber-600 hover:border-transparent rounded">
+                    All
+                </button>
+                <button class="bg-transparent  hover:bg-amber-600 text-amber-600 font-semibold hover:text-white py-1 px-4 border border-amber-600 hover:border-transparent rounded">
+                    Spirits & Mixers
+                </button>
+                <button class="bg-transparent  hover:bg-amber-600 text-amber-600 font-semibold hover:text-white py-1 px-4 border border-amber-600 hover:border-transparent rounded">
+                    Wines, Prosecco & Champagne
+                </button>
+                <button class="bg-transparent  hover:bg-amber-600 text-amber-600 font-semibold hover:text-white py-1 px-4 border border-amber-600 hover:border-transparent rounded">
+                    Coffee & Tea
+                </button>
+                <button class="bg-transparent  hover:bg-amber-600 text-amber-600 font-semibold hover:text-white py-1 px-4 border border-amber-600 hover:border-transparent rounded">
+                    Soft Drinks
+                </button>
+                <button class="bg-transparent  hover:bg-amber-600 text-amber-600 font-semibold hover:text-white py-1 px-4 border border-amber-600 hover:border-transparent rounded">
+                    Seasonal Drinks
+                </button>
+
+                
+            </div>
+
+            <h1 class="text-gray-400 pl-16 pt-10 ">Filter Price</h1>
+
+                <button class="bg-transparent ml-14 hover:bg-amber-600 text-amber-600 font-semibold hover:text-white py-1 px-4 border border-amber-600 hover:border-transparent rounded">
+                    All
+                </button>
+                <button class="bg-transparent  hover:bg-amber-600 text-amber-600 font-semibold hover:text-white py-1 px-4 border border-amber-600 hover:border-transparent rounded">
+                    £ 0.50+
+                </button>
+                <button class="bg-transparent  hover:bg-amber-600 text-amber-600 font-semibold hover:text-white py-1 px-4 border border-amber-600 hover:border-transparent rounded">
+                    £ 3+
+                </button>
+                <button class="bg-transparent  hover:bg-amber-600 text-amber-600 font-semibold hover:text-white py-1 px-4 border border-amber-600 hover:border-transparent rounded">
+                    £ 5+
+                </button>
+        </div>
+
+        <div class="grid grid-cols-5 p-4  w-full  bg-slate-950 pt-20 pl-12 pb-36">
+
+            <div class="relative hover:scale-105 pt-6">
+                <img class="w-[300px] h-[250px] rounded-2xl opacity-75 " src="/images/prosecco.jpg" alt="prosecco">
+                <div class="absolute top-0 left-24 pt-4 ">    
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white opacity-95 font-bold py-1 px-6 rounded-md mt-44 hover:scale-110">£ 1.50</button>
+                </div>
+            </div>
+            <div class="relative hover:scale-105 pt-6">
+                <img class="w-[300px] h-[250px] rounded-2xl opacity-75 " src="/images/gfruit.jpg" alt="Grape Fuit">
+                <div class="absolute top-0 left-24 pt-4 ">    
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white opacity-95 font-bold py-1 px-6 rounded-md mt-44 hover:scale-110">£ 0.50</button>
+                </div>
+            </div>
+            <div class="relative hover:scale-105 pt-6">
+                <img class="w-[300px] h-[250px] rounded-2xl opacity-75 " src="/images/lime.jpg" alt="Lime">
+                <div class="absolute top-0 left-24 pt-4 ">    
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white opacity-95 font-bold py-1 px-6 rounded-md mt-44 hover:scale-110">£ 2.00</button>
+                </div>
+            </div>
+            <div class="relative hover:scale-105 pt-6">
+                <img class="w-[300px] h-[250px] rounded-2xl opacity-75 " src="/images/nestea.jpg" alt="Nestea">
+                <div class="absolute top-0 left-24 pt-4 ">    
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white opacity-95 font-bold py-1 px-6 rounded-md mt-44 hover:scale-110">£ 1.80</button>
+                </div>
+            </div>
+            <div class="relative hover:scale-105 pt-6">
+                <img class="w-[300px] h-[250px] rounded-2xl opacity-75 " src="/images/mocktail.jpg" alt="mocktail">
+                <div class="absolute top-0 left-24 pt-4 ">    
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white opacity-95 font-bold py-1 px-6 rounded-md mt-44 hover:scale-110">£ 3.20</button>
+                </div>
+            </div>
+            <div class="relative hover:scale-105 pt-6">
+                <img class="w-[300px] h-[250px] rounded-2xl opacity-75 " src="/images/mojito-watermelon.jpg" alt="mojito-watermelon">
+                <div class="absolute top-0 left-24 pt-4 ">    
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white opacity-95 font-bold py-1 px-6 rounded-md mt-44 hover:scale-110">£ 2.50</button>
+                </div>
+            </div>
+            <div class="relative hover:scale-105 pt-6">
+                <img class="w-[300px] h-[250px] rounded-2xl opacity-75 " src="/images/orangejuice.jpg" alt="orange juice">
+                <div class="absolute top-0 left-24 pt-4 ">    
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white opacity-95 font-bold py-1 px-6 rounded-md mt-44 hover:scale-110">£ 0.50</button>
+                </div>
+            </div>
+            <div class="relative hover:scale-105 pt-6">
+                <img class="w-[300px] h-[250px] rounded-2xl opacity-75 " src="/images/bordeaux.jpg" alt="bordeaux">
+                <div class="absolute top-0 left-24 pt-4 ">    
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white opacity-95 font-bold py-1 px-6 rounded-md mt-44 hover:scale-110">£ 5.00</button>
+                </div>
+            </div>
+            <div class="relative hover:scale-105 pt-6">
+                <img class="w-[300px] h-[250px] rounded-2xl opacity-75 " src="/images/berry.jpg" alt="Strawberry Juice">
+                <div class="absolute top-0 left-24 pt-4 ">    
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white opacity-95 font-bold py-1 px-6 rounded-md mt-44 hover:scale-110">£ 2.50</button>
+                </div>
+            </div>
+            <div class="relative hover:scale-105 pt-6">
+                <img class="w-[300px] h-[250px] rounded-2xl opacity-75 " src="/images/vodka.jpg" alt="Italian Soda">
+                <div class="absolute top-0 left-24 pt-4 ">    
+                    <button class="bg-amber-600 hover:bg-cyan-00 text-white opacity-95 font-bold py-1 px-6 rounded-md mt-44 hover:scale-110">£ 4.50</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="w-full h-[200px] bg-black grid grid-cols-4 text-center pt-10 pb-5">
+            <div class="text-amber-700  ">
+                <a href=""> Shane Cagas Acao                  
+                </a><br>
+                <a href="">Hsaenth
+                </a><br>
+                <a href="">raiarawr
+                </a><br>
+                <a href="">_xenshn
+                </a>
+            </div>
+            <div class="text-amber-700 decoration-none">
+                <a href=""> Shane Cagas Acao                  
+                </a><br>
+                <a href="">Hsaenth
+                </a><br>
+                <a href="">raiarawr
+                </a><br>
+                <a href="">_xenshn
+                </a>
+            </div>
+            <div class="text-amber-700 decoration-none">
+                <a href=""> Shane Cagas Acao                  
+                </a><br>
+                <a href="">Hsaenth
+                </a><br>
+                <a href="">raiarawr
+                </a><br>
+                <a href="">_xenshn
+                </a>
+            </div>
+            <div class="text-amber-700 decoration-none">
+                <a href=""> Shane Cagas Acao                  
+                </a><br>
+                <a href="">Hsaenth
+                </a><br>
+                <a href="">raiarawr
+                </a><br>
+                <a href="">_xenshn
+                </a>
+            </div>
+        
+
+    </div>
+    
+    
+    </div>
+</body>
+</html>
